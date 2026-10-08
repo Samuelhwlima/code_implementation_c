@@ -6,7 +6,6 @@ int main() {
     int num_soma1, num_soma2;
     float num_mult1, num_mult2;
     float num_div1, num_div2;
-    float resultado_div;
 
     //Usuario irá digitar 2 números para a soma
     printf("SOMA - Digite 2 números para a operação correspondente:\n");
