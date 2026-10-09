@@ -7,7 +7,7 @@
 * Prof.: Ana
 *
 * Descrição:
-* Programa: Calculando o produto de multiplicação
+* Programa: Calculando a media com 2 pesos
 * Data: 09/10/2026
 * -------------------------------------------------------------------------
 */
