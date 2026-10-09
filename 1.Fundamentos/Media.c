@@ -29,7 +29,7 @@ int main() {
     printf ("Digite a segunda nota: ");
     scanf ("%lf", &num2);
 
-    //Condição para deixar as 2 notas entr 0.0 e 10.0
+    //Condição para deixar as 2 notas entre 0.0 e 10.0
     if (num1 <= 10 && num1 >= 0)
     {
         if (num2 <= 10 && num2 >= 0)
