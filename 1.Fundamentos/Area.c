@@ -12,3 +12,23 @@
 * -------------------------------------------------------------------------
 */
 
+#include <stdio.h>
+
+int main() {
+
+    //Declaração de variaveis
+    float area, raio;
+    float pi = 3.14159;
+
+    //Descrição do programa ao usuario
+    printf ("---Calculo de área---\n");
+    printf ("Digite o valor do raio: ");
+    scanf ("%f", &raio);
+
+    //Formula para calcular a área
+    area = pi * (raio * raio);
+
+    printf ("Resultado da área: %.4f\n",area);
+    return 0;
+}
+
