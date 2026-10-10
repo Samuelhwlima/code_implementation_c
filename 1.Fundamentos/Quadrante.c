@@ -7,7 +7,7 @@
 * Prof.: Ana
 *
 * Descrição:
-* Programa: Calculando o quadrante baseado na posição x e y
+* Programa: Calculando o quadrante baseado na posição X e Y
 * Data: 09/10/2026
 * -------------------------------------------------------------------------
 */
@@ -23,5 +23,23 @@ int main() {
 
     printf("Digite a coordenada y: ");
     scanf ("%d", &y);
+
+    //Estrtura de decisão para exibir o quadrante
+    if (x > 0 && y > 0)
+    {
+        printf ("Quadrante 1°\n");
+    }
+        else if (x < 0 && y > 0)
+        {
+            printf ("Quadrante 2°\n");
+        }
+            else if (x < 0 && y < 0)
+            {
+                printf ("Quadrante 3°\n");
+            }
+                else if (x > 0 && y < 0)
+                {
+                    printf ("Quadrante 4°\n");
+                }
     return 0;
 }
