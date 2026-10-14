@@ -45,7 +45,7 @@ int main() {
 
         //atualizando o valor
         a = b;
-        b = c ;
+        b = c;
 
     }
 
